@@ -1,0 +1,101 @@
+h2{
+    color:blue;
+    font-size: 30px;
+
+}
+P{
+    color: black;
+    font-size: 20px;
+}
+li{
+    font-size: 20px;
+}
+
+body{
+    background-size: cover;
+
+    
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    flex-direction: row;
+    background-color:rgba(128,128,128,50%);
+    font-size: 20px;
+ 
+}
+
+.menu-horizontal{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.menu-horizontal >li > a{
+    display: block;
+    padding: 15px 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu-horizontal >li:hover{
+ background-color:skyblue;
+ opacity:10 px ;
+ border-radius: 10px;
+
+}
+
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    padding: 0;
+    background-color: gray;
+}
+
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: peru;
+    opacity: 10%;
+}
+
+.menu-vertical li a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+
+}
+ 
+.logo{
+    width: 16%;
+    height: 9%;
+}
+
+.Reading-layer{
+    display: flex;
+    flex-direction: column;
+    background-color:rgb(237, 232, 208,50%);
+    border-radius: 14px;
+}
+
+
+.centered-container {
+    display: flex;
+    align-items: center; /* Centra verticalmente */
+    justify-content: center; /* Centra horizontalmente, si también lo deseas */
+    height: 100px; /* Ajusta según sea necesario */
+}
+
+.paragraphs{
+    margin-left:10%;
+    margin-right: 10%;
+}
+
+.Principios{
+   margin-top: 10%;
+}
